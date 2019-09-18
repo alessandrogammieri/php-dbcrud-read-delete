@@ -12,17 +12,34 @@
     <title>PHP DBcrud Read Delete</title>
   </head>
   <body>
-    <h1>PHP DBcrud Read Delete</h1>
+    <h1>Pagamenti</h1>
     <div class="container">
-        
+      <div class="box">
+        <p>Pending</p>
+        <div class="prezzi-pend">
+          <!-- Template -->
+        </div>
+      </div>
+      <div class="box">
+        <p>Rejected</p>
+        <div class="prezzi-rej">
+          <!-- Template -->
+        </div>
+      </div>
+      <div class="box">
+        <p>Accepted</p>
+        <div class="prezzi-acc">
+          <!-- Template -->
+        </div>
+      </div>
     </div>
 
     <!-- TEMPLATE: MESSAGE MENU -->
     <script id="item-template" type="text/x-handlebars-template">
-        <div class="box" data-id={{id}}>
-            <p class="delete">X</p>
-            <span class="text">{{text}}</span>
-        </div>
+      <div class="card" data-id={{id}} status={{status}}>
+        <p>€ {{price}}</p>
+        <p class="delete">Delete payment</p>
+      </div>
     </script>
 
     <!-- JS: MOMENT -->

@@ -12,6 +12,40 @@
 }
 
 h1 {
-    background: red;
-    color: blue;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    p {
+        font-size: 24px; 
+        padding: 20px 0 15px 0;
+    }
+    div {
+        text-align: center;
+        p {
+            font-size: 24px; 
+            padding: 5px 0;  
+        }
+        .card {
+            padding-top: 15px;
+        }
+        .delete {
+            text-decoration: underline;
+            font-size: 18px;
+        }
+    }
 }
