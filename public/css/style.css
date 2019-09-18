@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap&subset=malayalam);/* REGOLE GENERALI */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manjari", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  list-style: none;
+}
+
+h1 {
+  background: red;
+  color: blue;
+}
+
